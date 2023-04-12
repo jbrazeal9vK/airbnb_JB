@@ -20,3 +20,11 @@
 -- | https://www.airbnb.com/rooms/25682427 | 16           |
 
 
+Select 
+    URL
+    ,accommodates
+
+from listings
+
+where 1=1
+    and accommodates = 16

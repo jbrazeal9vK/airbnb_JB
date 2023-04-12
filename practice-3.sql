@@ -13,3 +13,11 @@
 -- | Beverly                |
 
 
+Select  
+    neighborhood
+
+from listings
+
+group by neighborhood
+
+order by neighborhood

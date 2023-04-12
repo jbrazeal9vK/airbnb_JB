@@ -5,3 +5,6 @@
 -- +----------+
 
 
+Select count(id)
+
+from reviews

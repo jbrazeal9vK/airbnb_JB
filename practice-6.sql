@@ -16,3 +16,16 @@
 -- | Burnside               | 10       |
 
 
+Select 
+    listings.neighborhood
+    ,count(reviews.id)
+
+from listings
+
+    inner join reviews on reviews.listing_id = listings.id
+
+where 1=1
+
+group by listings.neighborhood
+
+order by listings.neighborhood
